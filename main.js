@@ -27,19 +27,19 @@ let num = 1;
  let arr = [
      {
          head1: "Concentric Contraction",
-         head2: "Concentric : ",
+         head2: "Concentric:",
          p : " Concentric contraction is a type of muscle activation that causes tension on your muscle as it shortens. As your muscle shortens, it generates enough force to move an object. This is the most popular type of muscle contraction.",
          img:"./images/con1.png"
      },
      {
          head1: "Eccentric Contraction",
-         head2: "Eccentric : ",
+         head2: "Eccentric:",
          p : " Eccentric contraction occurs when the total length of the muscle increases as tension is produced. For example, the lowering phase of a biceps curl constitutes an eccentric contraction.",
          img:"./images/ecen2.png"
      },
      {
          head1: "Isometric Contraction",
-         head2: "Isometric : `",
+         head2: "Isometric:`",
          p : " An isometric contraction is a muscle contraction without motion. Isometric contractions are used to stabilize a joint, such as when a weight is held at waist level neither raising nor lowering it.",
          img:"./images/iso3.gif"
      }

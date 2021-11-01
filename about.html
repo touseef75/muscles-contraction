@@ -7,16 +7,61 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+<style>
+    .img{
+        text-align: end;width: 80%;
+    }
+#p{
+text-align: justify;width: 40%;margin-left: 200px;transform: scale(1.3);line-height: 20px;
+}
+    .head{
+        text-align: center;transform: scale(2);
+    }
+    .div{
+        display: flex;width: 90%;text-align: center;
+    }
+    .img{
+        text-align: end;width: 70%;margin-top: 20px;
+    }
+    .mhead{
+        transform: scale(2);
+    }
+     @media screen and (max-width:768px){
+              .mhead{
+              transform: scale(1);
+            }#video1{
+                transform: scale(0.6);
+                margin-left: -100px;
+            }.img{
+        text-align: end;width: 60%;margin-top: 10px;
+        margin-left: -60px;
+    }.div{
+        display: block;
+    }.head{
+        transform: scale(1);
+    }#p{
+        text-align: justify;width: 100%;margin-left: 20px;transform: scale(1);line-height: 20px
+    }#img{
+        transform: scale(0.7);
+        margin-left: -70px;
+    }#black{
+        margin-bottom: 10px;
+    }.div1{
+        display: none;
+    }
+
+		 } 
+</style>
 <body id="main" style="overflow-x: hidden;background: #f4eae4;">
    <div id="container" style="background: #f4eae4;" >
        <br><br>
 
 
        <div class="head" style="text-align: center;">
-        <h1 style="transform: scale(2);"><span>Muscle Contraction</span></h1>
+        <h1 class="mhead"><span>Muscle Contraction</span></h1>
        </div>
 
-       <div class="img" style="text-align: end;width: 70%;margin-top: 20px;" >
+       <div class="img">
            <img src="./images/biceps4.gif" alt="" width="250" style="position: absolute;text-align: end;"
            >
        </div>
@@ -24,13 +69,17 @@
 
        <br><br><br><br><br>
 
+       <div class="div1">
+
        <div class="div" style="display: flex;">
            <h2 style="position: absolute;margin-left: 300px;margin-top: 150px;" > <span> Relaxation biceps----</span></h2>
            <h2 style="margin-left: 600px;margin-top: 100px;position: absolute;"> <span>------------Contract biceps</span></h2>
 
        </div>
+    </div>
+
     <div loop class="vedio" style="text-align: center;">
-        <video id="video1" width="600vh" height="600%" style="border-radius: 20px;">
+        <video id="video1"  width="600vh" height="600%">
             <source  src="./ezgif.com-gif-maker.mp4" type="video/mp4">
         </video>
      
@@ -53,11 +102,11 @@
    <div id="container2" style="display: none">
 
     <div class="headiong">
-        <h1  class="head" style="text-align: center;transform: scale(2);">
+        <h1  class="head">
             <span id="h1"> Concentric Contraction </span>
         </h1>
 
-        <div class="img" style="text-align: end;width: 80%;">
+        <div class="img" style="">
             <img src="./images/biceps4.gif" alt="" width="250" style="position: absolute;text-align: end;">
         </div>
 
@@ -66,14 +115,14 @@
         <br><br><br><br><br>
         <br><br>
 
-        <div class="div" style="display: flex;width: 90%;text-align: center;">
+        <div class="div">
             
             <div class="box1" style="width: 100%;">
                 
                 <br>
                 <h2 id="h2" style="margin-right: 350px;transform: scale(1.3);">Concentric : </h2>
                 <br><br>
-                <p id="p" style="text-align: justify;width: 40%;margin-left: 200px;transform: scale(1.3);line-height: 20px;">Concentric contraction is a type of muscle activation that causes tension on your muscle as it shortens. As your
+                <p id="p">Concentric contraction is a type of muscle activation that causes tension on your muscle as it shortens. As your
                 muscle shortens, it generates enough force to move an object. This is the most popular type of muscle contraction. </p>
             </div>
             
@@ -100,7 +149,7 @@
         <div id="but1" style="text-align: end;margin-right: 30px;display: flex;">
             <a href="./index.html">
     
-                <button class="button-82-pushable" role="button" style="margin-left: 20px;">
+                <button id="black" class="button-82-pushable" role="button" style="margin-left: 20px;">
                     <span class="button-82-shadow"></span>
                     <span class="button-82-edge"></span>
                     <span class="button-82-front text">
